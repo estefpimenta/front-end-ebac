@@ -1,0 +1,61 @@
+/* reset geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 50px auto;
+}
+
+
+h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form input, textarea {
+    border-radius: 6px;
+}
+
+button {
+    background-color: rgb(85, 189, 85);
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(120, 197, 120);
+}
+
+.successMessage {
+    background-color: rgb(85, 189, 85);
+    padding: 16px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 16px;
+    text-align: center;
+    display: none;
+}
+
+.errorMessageName {
+    font-size: 12px;
+    color: white;
+    background-color: rgb(245, 87, 87);
+    padding: 6px;
+    border-radius: 6px;
+    display: none;
+}
