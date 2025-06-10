@@ -71,12 +71,12 @@ table {
     width: 100%;
 }
 
-table th {
-    border-bottom: 2px solid black;
-    padding: 16px;
-    font-size: 24px;
-    font-weight: bold;
-}
+    table th {
+        border-bottom: 2px solid black;
+        padding: 16px;
+        font-size: 24px;
+        font-weight: bold;
+    }
 
 table td {
     text-align: center;
